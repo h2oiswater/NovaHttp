@@ -55,4 +55,8 @@ public class MasterFu {
 
     }
 
+    public void go(){
+        go(1);
+    }
+
 }

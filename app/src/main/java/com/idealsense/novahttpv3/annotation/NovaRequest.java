@@ -15,5 +15,5 @@ public @interface NovaRequest {
 
     boolean isFile() default false;
 
-    int requestID();
+    int requestID() default 1;
 }

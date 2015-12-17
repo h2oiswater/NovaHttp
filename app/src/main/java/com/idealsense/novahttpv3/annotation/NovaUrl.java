@@ -11,6 +11,6 @@ import java.lang.annotation.Target;
 @Target(ElementType.FIELD)
 @Retention(RetentionPolicy.RUNTIME)
 public @interface NovaUrl {
-    int requestID();
+    int requestID() default 1;
     boolean isPost() default true;
 }
